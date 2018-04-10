@@ -57,11 +57,10 @@ This project was built for a particular EMS device (Rehastim V1, which is off th
 
 You can't simply copy someone else's EMS calibration since it varies slightly from user to user (refer to [openEMSstim](https://github.com/PedroLopes/openEMSstim) for details on how to calibrate or see our paper). Still, you can use these values on the table below to guide your haptic effect design:
 
-
-|Haptic Effect|Muscle|mA  |μs   |Muscle|  mA|  μs|Duration| 
-|: ---------- |  --- | ---| --- | ---  |  ---| --- | --- :|
-| *Impulse/Impact (i.e., quick force in the opposite direction of motion)*  | 
-| Detents on Dial & Slider |  	Wrist rotator	| 15 | 200 | -| -| -| 150 | 
+| Haptic Effect        | Muscle           | mA|μs|Muscle|mA|μs|Duration| 
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:|
+|Detents on Dial and Slider|Wrist rotator|15|200|-|-|-|150| 
+| *Impulse/Impact (i.e., quick force in the opposite direction of motion)*| 
 | Detents on Lever | Triceps| 17| 265| -| - | - |150 | 
 | Marble hits walls| Triceps| 18| 290| -|-|-|	300 | 
 | Marble drop|Triceps| Right|17|280|Triceps Left|17|280|300 |
