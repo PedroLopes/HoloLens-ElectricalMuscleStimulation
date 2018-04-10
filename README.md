@@ -90,7 +90,7 @@ The code was authored by **Sijing You** (Hololens Apps, EMS Unity Server) and **
 
 The paper ``Adding Force Feedback to Mixed Reality Experiences and Games using Electrical Muscle Stimulation (CHI'18)``, which you can read [here](https://hpi.de/baudisch/projects/ems-ar-haptics.html) was authored by Pedro Lopes, Sijing You, Alexandra Ion and Patrick Baudisch. 
 
-#FAQ
+# FAQ
 
 ### 1. I don't have an EMS device! What to I do?
 
