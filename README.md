@@ -57,10 +57,25 @@ This project was built for a particular EMS device (Rehastim V1, which is off th
 
 You can't simply copy someone else's EMS calibration since it varies slightly from user to user (refer to [openEMSstim](https://github.com/PedroLopes/openEMSstim) for details on how to calibrate or see our paper). Still, you can use these values on the table below to guide your haptic effect design:
 
-|Haptic Effect|Muscle|mA  |μs   |Muscle|  mA|  μs|Duration| 
-|: ---------- |  --- | ---| --- | ---  |  ---| --- | --- :|| *Impulse/Impact (i.e., quick force in the opposite direction of motion)*  | | Detents on Dial & Slider |  	Wrist rotator	| 15 | 200 | -| -| -| 150 | 
+
+|Haptic Effect|Muscle|mA  |μs   |Muscle|  mA|  μs|Duration| 
+|: ---------- |  --- | ---| --- | ---  |  ---| --- | --- :|
+| *Impulse/Impact (i.e., quick force in the opposite direction of motion)*  | 
+| Detents on Dial & Slider |  	Wrist rotator	| 15 | 200 | -| -| -| 150 | 
 | Detents on Lever | Triceps| 17| 265| -| - | - |150 | 
-| Marble hits walls| Triceps| 18| 290| -|-|-|	300 | | Marble drop|Triceps| Right|17|280|Triceps Left|17|280|300 || *Spring (i.e., continuous counterforce with spring coefficient)*| | Button | Shoulder | 	27|280-350| Wrist extensor|15||100-150|Proportional|| Catapult |Triceps|17|	200-275|-|-|-|Proportional|| *Friction (i.e., continuous counterforce)*| |Couch Static friction|	Shoulder|27|100-420|Wrist extensor|15|100-200|Ramp up||Couch Kinematic Friction|	Shoulder|27|300|Wrist extensor|15|120|Continous|| *Limits (i.e., strong counterforce that stops motion entirely)*| | Dial maximum position| Wrist rotator|15|265-300|-| -|-|Ramp up||*Weight/Gravity (i.e., constant and continuous force)*| |Marble weight|Triceps Right|17	|200|Triceps Left|17|200|Continuous ||Marble shift|Triceps Right|	17|	265|	Triceps Left|17|265| Proportional|
+| Marble hits walls| Triceps| 18| 290| -|-|-|	300 | 
+| Marble drop|Triceps| Right|17|280|Triceps Left|17|280|300 |
+| *Spring (i.e., continuous counterforce with spring coefficient)*| 
+| Button | Shoulder | 	27|280-350| Wrist extensor|15||100-150|Proportional|
+| Catapult |Triceps|17|	200-275|-|-|-|Proportional|
+| *Friction (i.e., continuous counterforce)*| 
+|Couch Static friction|	Shoulder|27|100-420|Wrist extensor|15|100-200|Ramp up|
+|Couch Kinematic Friction|	Shoulder|27|300|Wrist extensor|15|120|Continous|
+| *Limits (i.e., strong counterforce that stops motion entirely)*| 
+| Dial maximum position| Wrist rotator|15|265-300|-| -|-|Ramp up|
+|*Weight/Gravity (i.e., constant and continuous force)*| 
+|Marble weight|Triceps Right|17	|200|Triceps Left|17|200|Continuous |
+|Marble shift|Triceps Right|	17|	265|	Triceps Left|17|265| Proportional|
 
 p.s.: note that they might differ from the current code which is more of a demo-version.
 
@@ -68,7 +83,7 @@ p.s.: note that they might differ from the current code which is more of a demo-
 
 This work was kindly supported by the Hasso Plattner Institute. 
 
-![HPI](documentation/images/hpi.png)
+![HPI](extra/hpi.png)
 
 ### Code authors
 
