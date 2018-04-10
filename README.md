@@ -10,10 +10,7 @@ This repository has the four core folders:
 1. HoloLens_Apps: the Unity3D apps that run in the HoloLens
 2. EMS_Server: The Unity3D app that behaves as a server and accepts commands from the HoloLens apps, and generates EMS messages for an EMS device (more on the type of devices below).
 3. Shared_Assets: Shared assets between both EMS_Server and running HoloLens Applications
-
-Also:
-
-* Documentation: notes, liability waiver, etc.
+* Extra documentation: notes, liability waiver, etc.
 
 
 ## Dependencies
@@ -35,7 +32,7 @@ Optionally, we recommend:
 
 This project was built for a particular EMS device (Rehastim V1, which is off the market, sorry!). However, you can **easily** modify it to run on your custom EMS device (as long as it accepts USB commands) or using an open-source EMS controller such as [openEMSstim](https://github.com/PedroLopes/openEMSstim). If you are modifying the ``EMS_server`` to run with another EMS device, read this first.
 
-## Running the examples
+## 1. Running the examples
 
 1. Clone this repository by running ``git clone https://github.com/PedroLopes/HoloLens-ElectricalMuscleStimulation.git`` (or you preferred visual tool)
 2. Open the <name> project in Visual Studio.
@@ -45,10 +42,11 @@ This project was built for a particular EMS device (Rehastim V1, which is off th
 6. Setup the communication between both HoloLens <> EMS_Server. To do this you have to configure the EMS_server to receive requests from the HoloLens. <give the IP address of the EMS_server to the HoloLens app?>. 
 7. Deploy and Start both apps (once more double checked the IP addresses and Ports match).
 8. Configure your EMS machine, calibrate it to work comfortably and Pain-free (see here for more details). 
-9. ###Testing The EMS
-9. Now, launch the HoloLens app, put your hand out in the pointing gesture (to make sure it is tracked, or attach a Hand_marker to it -- review your code to make sure you supplied the right marker to Vuforia). 
-  11. Reach your hand out and touch a virtual object (e.g., we suggest you try the couch scene first). You should feel EMS (verify that the EMS_Server received the message). 
-  12. Hooray! (or read the FAQ below)
+
+## 2. Testing  
+1. Now, launch the HoloLens app, put your hand out in the pointing gesture (to make sure it is tracked, or attach a Hand_marker to it -- review your code to make sure you supplied the right marker to Vuforia). 
+2. Reach your hand out and touch a virtual object (e.g., we suggest you try the couch scene first). You should feel EMS (verify that the EMS_Server received the message). 
+3. Hooray! (or read the FAQ below)
 
 ### Support
 
