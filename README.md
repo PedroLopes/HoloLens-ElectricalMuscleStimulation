@@ -5,13 +5,15 @@ This repository provides you code to replicate the AR experiences in the paper
 
 ## Structure of this repository
 
-This repository has the four core folders:
+This repository has the two core folders:
 
-1. HoloLens_Apps: the Unity3D apps that run in the HoloLens
-2. EMS_Server: The Unity3D app that behaves as a server and accepts commands from the HoloLens apps, and generates EMS messages for an EMS device (more on the type of devices below).
-3. Shared_Assets: Shared assets between both EMS_Server and running HoloLens Applications
-* Extra documentation: notes, liability waiver, etc.
+1. ``Assets``: pretty much everything lives in here. See the following:
 
+   1.1 ``Assets/Root/Server/Scenes/Server.unity`` the Unity3D app that run in the server (a laptop connected to the stimulator) is at 
+  
+   1.2 ``Assets/Root/Applications/Scenes/`` has four HoloLens applications you see in our video: ``labyrinth.unity`` (a marble balancing game to be played with a physical prop), ``Walkthrough.unity`` (a room planning application with a couch, lamp, button and thermostat), ``Escape.unity``(and AR escape room!) and ``Userstudy.unity``(if you want to replicate our study conditions). 
+   
+2. ``ProjectSettings``: Just settings. 
 
 ## Dependencies
 
@@ -36,6 +38,8 @@ Optionally, we recommend:
 ### Hardware Requirements
 
 This project was built for a particular EMS device (Rehastim V1, which is off the market, sorry!). However, you can **easily** modify it to run on your custom EMS device (as long as it accepts USB commands) or using an open-source EMS controller such as [openEMSstim](https://github.com/PedroLopes/openEMSstim). If you are modifying the ``EMS_server`` to run with another EMS device, read this first.
+
+Since the HoloLens we used does not support a USB connection (for the muscle stimulator) we used an additional laptop running as a server (hence the ``Assets/Root/Server/Scenes/Server.unity`` that yoy must run on your laptop). See the paper for how to pack this is a convenient backpack form factor. 
 
 ## 1. Running the examples
 
