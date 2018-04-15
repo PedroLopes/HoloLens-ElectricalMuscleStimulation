@@ -1,7 +1,7 @@
 # HoloLens-ElectricalMuscleStimulation
 
 This repository provides you code to replicate the AR experiences in the paper 
-``Adding Force Feedback to Mixed Reality Experiences and Games using Electrical Muscle Stimulation (CHI'18)``, which you can read [here](https://hpi.de/baudisch/projects/ems-ar-haptics.html).
+``Adding Force Feedback to Mixed Reality Experiences and Games using Electrical Muscle Stimulation (CHI'18)``, which you can read [here](https://hpi.de/baudisch/projects/ems-ar-haptics.html). Also here is the accompanying [video](https://www.youtube.com/watch?v=mgGX6p0rA54).
 
 ## Structure of this repository
 
@@ -11,7 +11,7 @@ This repository has the two core folders:
 
    1.1 ``Assets/Root/Server/Scenes/Server.unity`` the Unity3D app that run in the server (a laptop connected to the stimulator) is at 
   
-   1.2 ``Assets/Root/Applications/Scenes/`` has four HoloLens applications you see in our video: ``labyrinth.unity`` (a marble balancing game to be played with a physical prop), ``Walkthrough.unity`` (a room planning application with a couch, lamp, button and thermostat), ``Escape.unity``(and AR escape room!) and ``Userstudy.unity``(if you want to replicate our study conditions). 
+   1.2 ``Assets/Root/Applications/Scenes/`` has four HoloLens applications you see in our [video](https://www.youtube.com/watch?v=mgGX6p0rA54): ``labyrinth.unity`` (a marble balancing game to be played with a physical prop), ``Walkthrough.unity`` (a room planning application with a couch, lamp, button and thermostat), ``Escape.unity``(and AR escape room!) and ``Userstudy.unity``(if you want to replicate our study conditions). 
    
 2. ``ProjectSettings``: Just settings. 
 
